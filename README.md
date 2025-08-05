@@ -1,16 +1,23 @@
-# local_market_flutter_app
+# 🌾 Local Market Flutter App
 
-A new Flutter project.
+A mobile-first Flutter application to help farmers and buyers check, compare, and update crop prices.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Login / Signup (Admin & Farmer roles)
+- View and filter crop prices
+- Admin dashboard to update prices
+- Works on Android, Web, and Windows
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter 3.8+
+- Dart
+- Mock Login (local list)
+- Firebase-ready structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 How to Run
+
+```bash
+flutter pub get
+flutter run -d chrome   # or -d android / windows
